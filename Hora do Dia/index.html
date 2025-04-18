@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 400px;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+        }
+
+        body, .container{
+            transition: background-color 1s ease;
+        }
+
+        h1{
+            color: white;
+        }
+
+        .img-top{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .rodape{
+            margin-top: 20px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hora do dia</h1>
+    <div class="container">
+        <div class="greeting">
+            <p class="greeting2">Bom dia</p>
+        </div>
+        <div class="msg">
+            <p class="msg2">Aqui vai a mensagem</p>
+        </div>
+        <div class="imagem">
+            <img class="img-top" alt="Imagem ilustrativa do período do dia">
+        </div>
+        
+    </div>
+
+    <footer class="rodape">
+        Danrley Pereira
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
